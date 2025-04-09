@@ -1,6 +1,6 @@
 public class Recursividad {
 
-    public static int sumaConsecutivos(int n) {
+    public int sumaConsecutivos(int n) {
         if (n == 1) {
             return 1;
         } else {
@@ -8,7 +8,7 @@ public class Recursividad {
         }
     }
 
-    public static int potencia(int base, int exponente) {
+    public int potencia(int base, int exponente) {
         if (exponente == 0) {
             return 1;
         } else {
@@ -16,7 +16,7 @@ public class Recursividad {
         }
     }
 
-    public static int sumaDigitos(int numero) {
+    public int sumaDigitos(int numero) {
         if (numero < 10) {
             return numero;
         } else {
